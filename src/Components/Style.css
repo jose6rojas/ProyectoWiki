@@ -1,0 +1,57 @@
+a {
+  width: "10";
+  height: "10";
+}
+
+.centrado{
+	margin:10px auto;
+	display:block;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 35px;
+  color: white;
+}
+
+
+p {
+  font-family: 'Annie Use Your Telescope';
+  font-size: 25px;
+  color: black;
+}
+
+i {
+  color: white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 450px;
+}
+
+.carousel-inner{
+height: 500px;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+.card-img-top {
+  width: 50%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+
