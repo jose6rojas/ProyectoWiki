@@ -25,6 +25,12 @@ class NavBar extends React.Component {
                     <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito"/></button>
                     <button type="button" className="btn btn-outline-info"> <img src={shop} width="30" height="30" alt="Comprar"/></button>
                  </form>
+                 <form className="form-inline my-2 my-lg-0">                   
+                    <button type="button" className="btn btn-outline-info">Log In</button>
+                    <button type="button" className="btn btn-outline-info">Registrate</button>
+                 </form>
+                 
+                 
 
                  
                 </nav>

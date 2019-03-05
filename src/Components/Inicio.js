@@ -12,6 +12,7 @@ class Inicio extends React.Component{
     render(){
         return(
             <div>
+                {/*Imagén de Inicio */}
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                          <div className="carousel-item active">
