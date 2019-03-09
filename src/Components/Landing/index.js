@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './Components/NavBar';
-import Inicio from './Components/Inicio';
+//import NavBar from '../Navigation/NavBar';
+import Inicio from './Inicio';
 
-class App extends Component {
+class Landing extends Component {
   render() {
     return (
       <div className="App">
-          <NavBar/>
+          {/*}<NavBar/>{*/}
           <Inicio/>
       </div>
     );
   }
 }
 
-export default App;
+export default Landing;

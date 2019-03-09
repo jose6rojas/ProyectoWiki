@@ -1,12 +1,12 @@
 import React from 'react';
-import './Style.css';
-import book from './books2.jpg';
-import developer from './developer.png';
-import math from './math.png';
-import build from './build.png';
-import computer from './computer.png';
-import face from './happy.png';
-import format from './format.png';
+import '../Style.css';
+import book from '../Pics/books2.jpg';
+import developer from '../Pics/developer.png';
+import math from '../Pics/math.png';
+import build from '../Pics/build.png';
+import computer from '../Pics/computer.png';
+import face from '../Pics/happy.png';
+import format from '../Pics/format.png';
 
 class Inicio extends React.Component{
     render(){
