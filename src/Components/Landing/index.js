@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 //import NavBar from '../Navigation/NavBar';
 import Inicio from './Inicio';
+import Home from '../InPage/HomeP.js';
 
 class Landing extends Component {
   render() {
@@ -9,6 +10,9 @@ class Landing extends Component {
       <div className="App">
           {/*}<NavBar/>{*/}
           <Inicio/>
+         {/* <div className = "margen"> 
+            <Home/>
+    </div>*/}
       </div>
     );
   }

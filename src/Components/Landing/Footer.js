@@ -6,8 +6,8 @@ class Footer extends React.Component{
     render(){
         return(
             <div>
-                <div className = "footer">
-                <nav className="navbar navbar-dark bg-dark navbar-expand-xl">
+                <div className = "margen">
+                <nav className="navbar navbar-dark bg-dark navbar-expand-xl border border-light">
                     <form className="form-inline my-2 my-lg-0">
                         <a className="navbar-brand">
                             <img src={image} width="40" height="40" alt="ProyectoWiki" />

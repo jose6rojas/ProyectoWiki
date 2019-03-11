@@ -8,6 +8,10 @@ import build from '../Pics/build.png';
 import computer from '../Pics/computer.png';
 import face from '../Pics/happy.png';
 import format from '../Pics/format.png';
+import note from '../Pics/note.png';
+import fav from '../Pics/favorite.png';
+import sms from '../Pics/sms.png';
+
 
 class Inicio extends React.Component{
     render(){
@@ -26,9 +30,33 @@ class Inicio extends React.Component{
                     </div>
                 </div>
                  {/*Información de la página */}
+                 <nav>
+                 <form>
+                    <div className="row">
+                        <div className="col">
+                        <a className="navbar-brand">
+                            <img src={note} width="40" height="40" alt="note" />
+                         </a>
+                         <p>Aprende con notas de tus clases de carrera, matemáticas, generales, etc.</p> 
+                        </div>
+                        <div className="col">
+                        <a className="navbar-brand">
+                            <img src={fav} width="40" height="40" alt="fav" />
+                         </a>
+                         <p>Guarda las notas que más te gusten para verlas después en tu lista de deseos.</p>
+                        </div>
+                        <div className="col">
+                        <a className="navbar-brand">
+                            <img src={sms} width="40" height="40" alt="sms" />
+                         </a>
+                         <p>Deja una pregunta o contesta alguna publicación en el foro.</p>
+                        </div>
+                     </div>
+                     </form>
 
-                <h1>CATEGORÍAS PRINCIPALES</h1>
-                <div>
+                 </nav>
+                
+                <div className = "margen">
                 <form>
                     <div className="form-row">
                         <div className="col">
@@ -57,7 +85,6 @@ class Inicio extends React.Component{
                 </form>
                 </div>
                 <Footer/>
-
             </div>
         );
     }
