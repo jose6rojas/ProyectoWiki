@@ -23,17 +23,28 @@ class NavBar extends React.Component {
                         <input className="form-control mr-sm-2" type="search" placeholder="Buscar clases.." aria-label="Search" />
                         <button className="btn btn-outline-info my-2 my-sm-0" type="searchClass">Buscar</button>
                     </form>
-                    <form className="form-inline my-2 my-lg-0">
-                        <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito" /></button>
-                        <button type="button" className="btn btn-outline-info"> <img src={shop} width="30" height="30" alt="Comprar" /></button>
-                    </form>
-                    <form className="form-inline my-2 my-lg-0">
-                        <button type="button" className="btn btn-outline-info" onClick={() => login()}>Log In</button>
-                        <button type="button" className="btn btn-outline-info" onClick={() => signup()}>Registrate</button>
-                    </form>
 
+                    <form>
+                    <div className="row">
+                        <div className="col">
+                        <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito"/></button>  
+                        </div>
+                         <div className="col">
+                            <button type="button" className="btn btn-outline-info"> <img src={shop} width="30" height="30" alt="Comprar"/></button>
+                         </div>
+                     </div>
+                     </form>
 
-
+                    <form>
+                    <div className="row">
+                        <div className="col">
+                            <button type="button" className="btn btn-outline-info" onClick={() => login()}>Log In</button>
+                        </div>
+                         <div className="col">
+                            <button type="button" className="btn btn-outline-info" onClick={() => signup()}>Registrate</button>
+                         </div>
+                     </div>
+                   </form>
 
                 </nav>
 

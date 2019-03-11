@@ -1,6 +1,15 @@
 a {
   width: "10";
   height: "10";
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+.footer{
+  margin-top:40px;
 }
 
 .centrado{
@@ -13,16 +22,14 @@ body {
 }
 
 h1 {
-  font-family: 'Annie Use Your Telescope';
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 
 
 p {
-  font-family: 'Annie Use Your Telescope';
-  font-size: 25px;
-  color: black;
+  font-size: 15px;
+  color: white;
 }
 
 i {

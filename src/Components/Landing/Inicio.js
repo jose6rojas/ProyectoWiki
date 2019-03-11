@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer.js'
 import '../Style.css';
 import book from '../Pics/books2.jpg';
 import developer from '../Pics/developer.png';
@@ -27,32 +28,36 @@ class Inicio extends React.Component{
                  {/*Información de la página */}
 
                 <h1>CATEGORÍAS PRINCIPALES</h1>
+                <div>
                 <form>
-                    <div class="form-row">
-                        <div class="col">
+                    <div className="form-row">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={developer} width="30" height="30" alt="Desarrollo"/> Desarrollo de Aplicaciones</button>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={math} width="30" height="30" alt="Matematicas"/>Matemáticas y Fisicas</button>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={build} width="30" height="30" alt="Matematicas"/>      Infraestructura</button>
                         </div>
                      </div>
                      <p></p>
                      
-                     <div class="form-row">
-                        <div class="col">
+                     <div className="form-row">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={computer} width="30" height="30" alt="Computacion"/> Ciencias de la Computación</button>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"> <img src={face} width="30" height="30" alt="Computacion"/>Catedrático: Ing. Elmer</button>
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={format} width="30" height="30" alt="Computacion"/> Formación General</button>
                         </div>
                      </div>
                 </form>
+                </div>
+                <Footer/>
+
             </div>
         );
     }
