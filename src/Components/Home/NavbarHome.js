@@ -3,6 +3,8 @@ import '../Style.css';
 import image from '../Pics/books.png';
 import categories from '../Pics/dashboard.png';
 import fav from '../Pics/favorite.png';
+import * as ROUTES from '../../constants/routes';
+import SignOutBt from '../SignOut/index';
 
 class NavbarHome extends React.Component {
     render() {
@@ -22,23 +24,23 @@ class NavbarHome extends React.Component {
                     </form>
 
                     <form>
-                    <div className="row">
-                        <div className="col">
-                        <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito"/></button>  
+                        <div className="row">
+                            <div className="col">
+                                <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito" /></button>
+                            </div>
                         </div>
-                     </div>
-                     </form>
+                    </form>
 
                     <form>
-                    <div className="row">
-                        <div className="col">
-                            <p>¡Bienvenido, Usuario!</p>
+                        <div className="row">
+                            <div className="col">
+                                <p>¡Bienvenido, Usuario!</p>
+                            </div>
+                            <div className="col">
+                                <SignOutBt></SignOutBt>
+                            </div>
                         </div>
-                         <div className="col">
-                            <button type="button" className="btn btn-outline-info">Log Out</button>
-                         </div>
-                     </div>
-                   </form>
+                    </form>
 
                 </nav>
 

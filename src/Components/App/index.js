@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-} from 'react-router-dom';
-
-import Navigation from '../Navigation/NavBar';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import NavBar from '../Navigation/NavBar';
 import LandingPage from '../Landing/index';
 import SignUpPage from '../SignUp';
 import SignInPage from '../SignIn';
@@ -12,13 +8,13 @@ import PasswordForgetPage from '../PasswordForget';
 import HomePage from '../Home';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
-
-
 import * as ROUTES from '../../constants/routes';
+import { withAuthentication } from '../Session';
 
 const App = () => (
   <Router>
     <div>
+      <NavBar></NavBar>
       <Route exact path={ROUTES.LANDING} component={LandingPage} />
       <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
       <Route path={ROUTES.SIGN_IN} component={SignInPage} />
@@ -30,4 +26,4 @@ const App = () => (
   </Router>
 );
 
-export default App;
+export default withAuthentication(App);
