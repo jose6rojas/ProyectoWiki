@@ -7,6 +7,7 @@ import shop from '../Pics/shop.png';
 import * as ROUTES from '../../constants/routes';
 import SignOutItem from '../SignOut';
 import { AuthUserContext } from '../Session';
+import { Link } from 'react-router-dom'
 
 const NavbarPage = () => (
     <div>
@@ -81,10 +82,10 @@ const NavigationNonAuth = () => (
             <form>
                 <div className="row">
                     <div className="col">
-                        <button type="button" className="btn btn-outline-info" onClick={() => login()}>Log In</button>
+                        <Link to={ROUTES.SIGN_IN}>Log In</Link>
                     </div>
                     <div className="col">
-                        <button type="button" className="btn btn-outline-info" onClick={() => signup()}>Registrate</button>
+                    <Link to={ROUTES.SIGN_UP}>Registrate</Link>
                     </div>
                 </div>
             </form>
