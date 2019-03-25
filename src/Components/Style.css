@@ -6,6 +6,19 @@ a {
 
 h4 {
   color: white;
+
+}
+
+h5{
+  text-decoration: underline;
+  color:white;
+  font-size: 20px;
+  
+}
+
+h3{
+  color: white;
+  font-size: 15px;
 }
 
 .margen{
@@ -27,6 +40,11 @@ body {
 
 h1 {
   font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
   color: white;
 }
 

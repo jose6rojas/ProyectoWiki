@@ -13,12 +13,14 @@ import so from '../Pics/so.jpg';
 import sql from '../Pics/sql.jpg';
 import nosql from '../Pics/nosql.jpg';
 import redes from '../Pics/redes.jpg';
+import Classpage from '../ClassPage';
 import { withAuthorization } from '../Session';
 
 class Home extends React.Component {
     render() {
         return (
             <div>
+                <Classpage/>
                 <div className="margen2">
                     <nav>
                         <form>
@@ -71,7 +73,7 @@ class Home extends React.Component {
                     <div className="card border-primary text-white bg-dark mb-5">
                          <img src={java} width="40" height="40" className="card-img-top centrado" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title centrado">Programación I</h5>
+                            <h5 className="card-title centrado">Programación II</h5>
                             <p className="card-text">Abi Alvarado </p>
                          </div>
                     </div>
