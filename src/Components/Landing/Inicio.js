@@ -21,7 +21,7 @@ class Inicio extends React.Component{
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                          <div className="carousel-item active">
-                            <img src={book} className="d-block w-100"/>
+                            <img src={book} className="d-block w-60"/>
                             <div className="carousel-caption d-none d-md-block">
                                  <h1>YA NO TIENES QUE ESTRESARTE</h1>
                                  <h1>Estudia para tus clases con las notas de estudiantes que las aprobarón y quieren compartir su conocimiento contigo.</h1>
@@ -37,7 +37,7 @@ class Inicio extends React.Component{
                         <a className="navbar-brand">
                             <img src={note} width="40" height="40" alt="note" />
                          </a>
-                         <p>Aprende con notas de tus clases de carrera, matemáticas, generales, etc.</p> 
+                         <p>Aprende con notas de tus clases de carrera, matemáticas, generales, etc.</p>
                         </div>
                         <div className="col">
                         <a className="navbar-brand">
@@ -55,7 +55,7 @@ class Inicio extends React.Component{
                      </form>
 
                  </nav>
-                
+
                 <div className = "margen">
                 <form>
                     <div className="form-row">
@@ -70,7 +70,7 @@ class Inicio extends React.Component{
                         </div>
                      </div>
                      <p></p>
-                     
+
                      <div className="form-row">
                         <div className="col">
                             <button type="button" className="btn btn-outline-info btn-lg"><img src={computer} width="30" height="30" alt="Computacion"/> Ciencias de la Computación</button>

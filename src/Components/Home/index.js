@@ -58,7 +58,7 @@ class Home extends React.Component {
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={book} className="d-block w-100" />
+                            <img src={book} className="d-block w-60" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h1>ESTUDIA EN CUALQUIER LUGAR..</h1>
                                 <h1>Descarga tus clases favoritas y estudia desde la comodidad de tu casa, en camino a la universidad, en la cafeteria o donde tu prefieras.</h1>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                 </div>
 
                 <h1>Clases de Desarrollo de Aplicaciones</h1>
-                
+
                 <div className="card-group">
                     <div className="card border-primary text-white bg-dark mb-5">
                          <img src={java} width="40" height="40" className="card-img-top centrado" alt="..."/>
@@ -101,7 +101,7 @@ class Home extends React.Component {
                 </div>
 
                 <h1>Clases de Infraestructura</h1>
-                
+
                 <div className="card-group">
                     <div className="card border-primary text-white bg-dark mb-5">
                          <img src={so} width="40" height="40" className="card-img-top centrado" alt="..."/>
