@@ -74,7 +74,6 @@ const NavigationNonAuth = () => (
                         <button type="button" className="btn btn-outline-info"> <img src={fav} width="30" height="30" alt="Favorito" /></button>
                     </div>
                     <div className="col">
-                        <button type="button" className="btn btn-outline-info"> <img src={shop} width="30" height="30" alt="Comprar" /></button>
                     </div>
                 </div>
             </form>
